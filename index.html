@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" type="x-icon" href="./HL_logo.png">
+    <title>Hoe Loans</title>
+</head>
+
+<body>
+    <header>
+        <a href="#1"><img src="./HL_logo.png" alt="logo" class="logo" style="padding: 0; margin: 0; width: 100px;"></a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#2">Intro</a></li>
+                <li><a href="#3">About Loans</a></li>
+                <li><a href="#4">About Me</a></li>
+                <li><a href="#5">Games to Earn Cash</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="front_vid" id="1">
+        <video autoplay="true" loop="true">
+            <source src="./loans_vid.mp4" type="video/mp4">
+        </video>
+        <hr width="90%">
+    </div>
+
+    <center>
+        <div class="Intro" id="2">
+            <h1><u>Introduction</u></h1>
+            <img src="./bull_vector.png" alt="bull">
+            <p><br />Hoe Loans is a player-made MNF loan lending organization.<br /><br />Take a loan and pay it back
+                with your body.<br /><br />For now, a total amount of $10000 in-game currency can be lent.<br /><br />In
+                basic terms, you or your chick will become a <b>temperory
+                    slave</b>.<br /><br />This may be taken in terms of RP as well.</p>
+        </div>
+
+        <div class="About_Loans" id="3">
+            <h1><u>Loans</u></h1>
+            <img src="./HL_logo.png" alt="logo">
+            <h2><u>How to Apply?</u></h2>
+            <p><br />Dm me in-game the amount you want and make sure that it doesn't exceed $10000.<br /><br /></p>
+            <h2><u>How will you get your amount?</u></h2>
+            <p><br />You won't be getting all your amount at once. You will be getting $1000 dollars each day. This is
+                considered after addressing the possibility of getting scammed.<br /><br /></p>
+            <h2><u>When will you be Paid?</u></h2>
+            <p><br />You will be paid upfront.<br /><br /></p>
+            <h2><u>How will you Repay?</u></h2>
+            <p><br />If you are a woman, you will be the organization's slave for a duration of 30 minutes to 1 hour
+                each day until your loaned amount is over. If you are a man, your hoe will be used.<br /><br /></p>
+            <h2><u>What will happen if you don't Repay?</u></h2>
+            <p><br />You will be banned from taking any loans.</p>
+        </div>
+
+        <div class="About_Me" id="4">
+            <h1><u>About Me</u></h1>
+            <div class="sub_div">
+                <img src="./me.png" alt="me">
+                <div class="sub_sub_div">
+                    <p><u>User</u>: SirDark</p>
+                    <p><u>Avatar Race</u>: Black</p>
+                    <p><u>Avatar Age</u>: 49</p>
+                    <p><u>Sexuality</u>: Straight</p>
+                    <p><u>Likes</u>: Bimbos, Thick Chicks, Dumb Hoes</p>
+                    <p><u>Kinks</u>: Domination, Cucking Others, Owning, Hardcore</p>
+                    <p><u>Dislikes</u>: Ungrateful Cunts, Pedophilia</p>
+                    <p><u>Twitter</u>: @SirDarkAtMNF</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="Games" id="5">
+            <h1><u>Games to Earn Some Cash</u></h1>
+            <p><br />These are some short games that I came up with to have fun as well as give away some cash and find
+                candidates for edits.<br />More may be added as I come with them.<br /><br /></p>
+            <div class="sub_div">
+                <div class="sub_sub_div">
+                    <h2><u>Pregnancy Rush</u></h2>
+                    <img src="./rush_img.png" alt="preg_rush">
+                </div>
+                <div class="sub_sub_div">
+                    <p style="font-size: 30px;"><u>Description</u><br /></p>
+                    <p>We fuck in single 1 on 1 rounds.</p>
+                    <p>There won't be any pulling out. All the jeez gonna go inside that coochie.</p>
+                    <p>After every 3 rounds, there will be dice roll. Rewards or punishments will be done on the basis
+                        of the numbers.</p>
+                    <p style="font-size: 30px;"><u>Rewards and Punishments</u><br /></p>
+                    <p><u>if the sum of 2 dice is 7 or 9:</u></p>
+                    <p>You are Pregnant.</p>
+                    <p>You will get $200 as child support.</p>
+                    <p>Your pregnant will last for 9 hours.</p>
+                    <p>You may type : 'Seeded by ' in your bio. <br /></p>
+                    <p><u>if the sum of 2 dice is less than 7 or greater than 9:</u></p>
+                    <p>We repeat the breeding process.<br /></p>
+                    <p><u>if the sum of 2 dice is 8:</u></p>
+                    <p>You get to be in an edit on my twitter.<br /></p>
+                    <p>If you wanna play, dm me "Pregnancy Run right now?"</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="credits">
+            <p>This website has been developed by me. <br>If anyone wants a website like this, they may contact me
+                through my twitter handle or in-game dms.<br>I will charge a minimum of 40,000 in-game cash for a website like this, be informed.</p>
+        </div>
+    </center>
+
+    <script>
+        //For Firefox we have to handle it in JavaScript 
+        var vids = $("video");
+        $.each(vids, function () {
+            this.controls = false;
+        });
+        //Loop though all Video tags and set Controls as false
+
+        $("video").click(function () {
+            //console.log(this); 
+            if (this.paused) {
+                this.play();
+            } else {
+                this.pause();
+            }
+        });
+    </script>
+</body>
+
+</html>
